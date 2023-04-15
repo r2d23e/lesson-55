@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+@font-face {
+  font-family: gilroy;
+  src: url(../font/Gilroy-Regular.ttf);
+}
+.wrap {
+  width: 100%;
+  height: 1000px;
+}
+.wrap .sec1 {
+  width: 100%;
+  display: flex;
+  height: 1117px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrap .sec1 .textbox {
+  position: relative;
+  top: 51px;
+  width: 85%;
+  height: 171px;
+  font-family: gilroy;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-family: gilroy;
+  text-align: center;
+}
+.wrap .sec1 .textbox h1 {
+  font-family: gilroy;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+}
+.wrap .sec1 .textbox p {
+  font-family: gilroy;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+}
+.wrap .sec1 .tovar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
